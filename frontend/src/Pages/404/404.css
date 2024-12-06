@@ -1,0 +1,19 @@
+
+
+#initial-404-view {
+    height: 90vh;
+    background-position: center top;/*https://stackoverflow.com/a/9577019*/
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: inline-flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+#four-zero-four-text {
+    font-size: 100px;
+    font-family: Roboto;
+    text-align: center;
+    margin-bottom: 80px;
+}

@@ -1,0 +1,28 @@
+
+#loading-container {
+    position: absolute;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 350px;
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+#loading-container svg {
+    margin-top: -40px; 
+    margin-bottom: -60px;
+}
+
+.load-text {
+    font-size: 30px;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    z-index: 1;
+}

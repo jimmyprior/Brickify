@@ -1,0 +1,111 @@
+header {
+    position: fixed;
+    font-family: Made-Infinity;
+    display: inline-flex;
+    width : 100%;
+    font-size: 2.8vh;
+    height: 10vh;;
+    left: 0px;
+    top: 0px;
+    background-color: white;
+    z-index: 10;
+}
+
+
+#menu-icon {
+    height: 3.5vh;
+    width: 3.5vh;
+    padding: 8px;
+    margin: 0px 10px;
+    border-radius: 5px;
+  }
+  
+#menu-icon:hover {
+    background-color: lightgrey;
+}
+
+/* can probably elimate most of this */
+.header-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#header-create-button {
+    margin: 0px;
+    height: 5vh;
+    width: 200px;
+}
+  
+  
+#header-create-button:hover {
+    margin-bottom: 6px;
+}
+
+@media (max-width: 650px) {
+    /* mobile CSS: hide .desktop div */
+    .header-links {
+      display: none;
+    }
+  
+    #header-create-button {
+      display: none;
+    }
+  }
+  
+
+header a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  padding: 8px;
+  border-radius: 5px;
+}
+
+header a:hover {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  background-color: lightgrey;
+}
+
+
+.header-logo {
+    width: 10vh;
+    height: 10vh;
+    margin: 0px 20px;
+}
+
+
+#side-nav {
+  border-top: lightgrey;
+  border-top-width: 1px;
+  border-top-style: solid;
+  position: fixed;
+  background-color: white;
+  width: 150px;
+  top: 10vh;
+  left: 0px;
+  height: 90vh;
+  overflow-y:auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  padding: 20px
+}
+
+#side-nav a {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 8px 15%;
+}
+
+
+#cover {
+  position: fixed;
+  top: 10vh;
+  left: 0px;
+  width: 100vw;
+  height: 90vh;
+  background-color: rgba(0, 0, 0, .5);
+}

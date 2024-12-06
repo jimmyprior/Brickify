@@ -1,0 +1,45 @@
+.mosaic-container {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.mosaic-render {
+    max-height: 70vh;
+    height: auto;
+    max-width: 100%;
+    width: auto;
+}
+
+
+.mosaic-element {
+    background-color: white;
+    padding: 10px;
+    flex-grow:1;
+}
+
+.export-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    background-color: lightgrey;
+    gap: 20px;
+    padding: 4px;
+    width: 170px;
+    border-radius: 3px;
+    margin: 3px;
+}
+
+.export-button:hover {
+    background-color: grey;
+
+}
+
+.export-button img {
+    max-width: 40px;
+    box-sizing: border-box;
+}

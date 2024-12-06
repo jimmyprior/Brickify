@@ -1,0 +1,28 @@
+
+.footer-links {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-links-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+#footer-text {
+    text-align: center;
+    color: gray;
+    padding: 10px;
+    font-size : 12px;
+}
+
+footer { 
+    font-family: Made-Infinity;
+    background-color: white;
+    margin: 0px;
+    padding: 20px
+}
+

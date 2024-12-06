@@ -1,0 +1,16 @@
+
+
+.about-example-img {
+    max-width: 200px;
+}
+
+
+.special-text-char {
+    margin: 0px;
+    padding: 0px;
+    display: inline-block;
+}
+
+#about-container {
+    padding: 10px;
+}

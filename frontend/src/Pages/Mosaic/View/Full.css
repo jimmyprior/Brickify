@@ -1,0 +1,74 @@
+
+.mosaic-view {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    padding: 10px 15px;
+    box-sizing: border-box;
+    gap: 15px;
+    width: 100%;
+}
+.mosaic-render {
+    flex-grow: 1;
+    max-height: 200vh;
+    width: 50%;
+    box-sizing: border-box;
+    min-width: 0;
+}
+
+.mosaic-info {
+    display: inline-block;
+    box-sizing: border-box;
+    min-width: 400px;
+    max-width: 400px;
+}
+
+.export-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    background-color: lightgrey;
+    gap: 20px;
+    padding: 6px;
+    border-radius: 3px;
+    margin: 3px;
+    font-size: 20px;
+}
+
+.export-button:hover {
+    background-color: grey;
+
+}
+
+.export-button img {
+    max-width: 40px;
+    box-sizing: border-box;
+}
+  
+
+.mosaic-modules {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 10px;
+    box-sizing: border-box;
+}
+
+.module {
+    background-color: white;
+    height: 200px;
+    padding: 10px;
+    border-radius: 10px;
+    max-width: 50%;
+    flex-grow: 1;
+    box-sizing: border-box;
+}
+
+
+.export-min-width {
+    min-width: 182px;
+}

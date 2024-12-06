@@ -1,0 +1,13 @@
+.step-bar text {
+    font-family: Made-Infinity;
+    font-size : 18px;
+}
+
+.step-bar {
+    height: 20vw;
+    max-width: 520px;
+    min-width: 300px;
+    padding: 0px 10px;
+    max-height: 130px;
+}
+

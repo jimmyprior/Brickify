@@ -1,0 +1,8 @@
+table, th, td {
+    border: black 1px solid;
+}
+
+.table-container {
+    height: 50vh;
+    overflow-y: auto;
+}

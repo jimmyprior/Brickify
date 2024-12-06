@@ -1,0 +1,99 @@
+@font-face {
+  font-family: Made-Infinity;
+  src: url("../public/fonts/Made-Infinity.otf");
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;700;900&display=swap');
+
+
+h1 {
+  font-family: Made-Infinity;
+  font-size : 48px;
+  margin: 10px 0px;
+}
+
+h2 {
+  font-family: Made-Infinity;
+  font-size : 25px;  
+  margin: 10px 0px;
+
+}
+
+p {
+  font-family: Made-Infinity;
+}
+
+button {
+  background-color: #e8b92b;
+  font-size: 20px;
+  font-family: Made-Infinity;
+  border-radius: 5px;
+  border-width: 0px;
+}
+
+
+.home-page-title-text {
+  margin: 0px;
+  font-family: Roboto;
+  font-size: 60px;
+  font-weight: 900;
+}
+
+
+.center-text {
+  text-align: center;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: #efefefff;
+  padding-top: 10vh; /* pad out nav bar area*/
+}
+
+#create-button {
+  border-color: #b58800;
+  border-width: 4px;
+  width: 300px;
+  height: 65px;
+  border-radius: 0px;
+  margin-top: 40px;
+}
+
+
+.uppercase {
+  text-transform: uppercase;;
+}
+
+
+#background-image {
+  margin: 0px;
+  padding: 0px;
+  height: 90vh;
+  background-position: center top; /*https://stackoverflow.com/a/9577019*/
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.center-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width : 100%;
+}
+
+
+.center-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.jc-space-between {
+  justify-content: space-between;
+}
+
+

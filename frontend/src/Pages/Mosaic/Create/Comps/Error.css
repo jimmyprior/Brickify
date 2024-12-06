@@ -1,0 +1,25 @@
+.alert-box {
+    position: absolute; /* neede for absolute with x-icon */
+    display: inline-block;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, .7);
+    border-radius: 5px;
+    width: 100%;
+    color: white;
+    margin: 10px 0px;
+    text-align: center;
+    max-width: 300px;
+    z-index: 10;
+}
+
+
+.x-icon {
+    position: absolute;
+    background-color: red;
+    width: 20px;
+    height: 20px;
+    top: -7px;
+    right: -7px;
+    border-radius: 100%;
+}
